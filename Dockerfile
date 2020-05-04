@@ -38,7 +38,7 @@ RUN pacman -Syyu --noconfirm \
 
 
 # Repoyu klonla ve çalışma dizinini hazırla
-RUN git clone https://github.com/TeamDerUntergang/Telegram-UserBot -b seden /root/sedenbot
+RUN git clone https://github.com/yamtargokboru3810/Telegram-UserBot -b seden /root/sedenbot
 RUN mkdir /root/sedenbot/bin/
 WORKDIR /root/sedenbot/
 
